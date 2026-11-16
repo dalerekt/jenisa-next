@@ -4,7 +4,6 @@ html{scroll-behavior:smooth}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--hijau);background:var(--putih);line-height:1.6}
 a{color:inherit}
 h1,h2,h3{font-family:Georgia,"Times New Roman",serif;margin:0;line-height:1.15}
-main{padding-top:72px;min-height:70vh}
 .wrap{max-width:1120px;margin:auto;padding:56px 20px}
 .label{text-transform:uppercase;letter-spacing:1.5px;font-size:.78rem;font-weight:700;color:#7a6a1e}
 .note{font-size:.92rem;opacity:.85}
@@ -89,3 +88,7 @@ main{padding-top:72px;min-height:70vh}
 .modal-head button{background:none;border:none;font-size:1.3rem;cursor:pointer;color:var(--hijau)}
 .kontak-opsi{display:flex;justify-content:space-between;align-items:center;background:var(--wa);color:#fff;padding:12px 14px;border-radius:12px;text-decoration:none;font-weight:600;font-size:18px}
 .kontak-opsi small{font-weight:700;font-size:15px}
+html,body{height:100%}
+.page{min-height:100vh;display:flex;flex-direction:column}
+.page main{flex:1}
+.footer{margin-top:auto}
