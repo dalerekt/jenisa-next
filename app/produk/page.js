@@ -13,7 +13,6 @@ export default function Produk() {
     <section className="band">
       <div className="wrap">
         <div className="ekspor-banner">
-          <div className="label">{t("exp_label")}</div>
           <h3 style={{ color: "var(--emas)", fontSize: "1.5rem", margin: "8px 0 6px" }}>{t("exp_banner")}</h3>
           <div style={{ opacity: 0.9 }}>{t("exp_sub")}</div>
         </div>
