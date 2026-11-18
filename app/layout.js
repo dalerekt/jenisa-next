@@ -15,9 +15,11 @@ export default function RootLayout({ children }) {
       <body>
         <LangProvider>
           <CartProvider>
-            <Navbar />
-            <main>{children}</main>
-            <Footer />
+            <div className="page">
+              <Navbar />
+              <main>{children}</main>
+              <Footer />
+            </div>
           </CartProvider>
         </LangProvider>
       </body>
