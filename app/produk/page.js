@@ -20,6 +20,7 @@ export default function Produk() {
         <h2 style={{ fontSize: "2rem" }}>{t("exp_title")}</h2>
         <p className="note">{t("exp_note")}</p>
 
+        <img src="/images/promo-2.jpg" alt="Jenisa siap minum isi 10 botol" style={{ width: "100%", borderRadius: 18, margin: "20px 0 4px" }} />
         <div className="grid">
           {ekspor.map((p) => <ProductCard key={p.id} product={p} mode="ekspor" />)}
         </div>

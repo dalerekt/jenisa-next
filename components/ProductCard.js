@@ -10,6 +10,7 @@ export default function ProductCard({ product, mode }) {
 
   return (
     <div className="card">
+      {product.foto && <img src={product.foto} alt={product.namaDi(lang)} style={{ width: "100%", height: 180, objectFit: "contain", background: "#f7f1dc", borderRadius: 12 }} />}
       <h3>{product.namaDi(lang)}</h3>
       <small>{product.desc[lang]}</small>
       <small>{t("shelf")}: {product.daya[lang]}</small>
