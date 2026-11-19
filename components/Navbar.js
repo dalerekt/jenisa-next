@@ -6,6 +6,7 @@ import { useLang } from "./LangProvider";
 import { useCart } from "./CartProvider";
 
 const MENU = [
+  { href: "/", key: "nav_home" },
   { href: "/tentang", key: "nav_about" },
   { href: "/produk", key: "nav_products2" },
   { href: "/kualitas", key: "nav_quality" },

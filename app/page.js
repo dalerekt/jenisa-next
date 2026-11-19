@@ -32,6 +32,13 @@ export default function Beranda() {
         </div>
         <img src="/images/poster.jpg" alt="Jenisa" />
       </section>
+
+      <section className="wrap">
+        <div className="galeri">
+          <figure><img src="/images/promo-1.jpg" alt="Jenisa syrup dan siap minum" /></figure>
+          <figure><img src="/images/promo-2.jpg" alt="Jenisa siap minum isi 10 botol" /></figure>
+        </div>
+      </section>
     </>
   );
 }
