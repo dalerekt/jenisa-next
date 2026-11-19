@@ -7,6 +7,15 @@ export default function Kualitas() {
   return (
     <>
       <section className="wrap">
+        <div className="label">{t("gal_label")}</div>
+        <h2 style={{ fontSize: "2rem" }}>{t("gal_title")}</h2>
+        <div className="galeri">
+          <figure><img src="/images/poster.jpg" alt="Jenisa" /><figcaption>{t("gal_cap1")}</figcaption></figure>
+          <figure><img src="/images/hero.jpg" alt="Jenisa" /><figcaption>{t("gal_cap2")}</figcaption></figure>
+        </div>
+      </section>
+
+      <section className="wrap">
         <div className="label">{t("ingr_label")}</div>
         <h2 style={{ fontSize: "2rem", margin: "10px 0 14px" }}>{t("ingr_title")}</h2>
         <p>{t("ingr_p1")}</p>
@@ -21,15 +30,6 @@ export default function Kualitas() {
             <span className="chip">{t("cert_halal")}</span>
             <span className="chip">{t("cert_pirt")}</span>
           </div>
-        </div>
-      </section>
-
-      <section className="wrap">
-        <div className="label">{t("gal_label")}</div>
-        <h2 style={{ fontSize: "2rem" }}>{t("gal_title")}</h2>
-        <div className="galeri">
-          <figure><img src="/images/poster.jpg" alt="Jenisa" /><figcaption>{t("gal_cap1")}</figcaption></figure>
-          <figure><img src="/images/hero.jpg" alt="Jenisa" /><figcaption>{t("gal_cap2")}</figcaption></figure>
         </div>
       </section>
     </>
